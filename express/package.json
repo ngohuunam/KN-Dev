@@ -1,0 +1,32 @@
+{
+  "name": "kn-sv-0001",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "SET DEBUG=kn-sv-0001:* & nodemon --inspect ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~4.1.1",
+    "express": "~4.17.1",
+    "express-static-gzip": "^2.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.10.0",
+    "nano": "^8.2.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.3.0",
+    "ws": "^7.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.0"
+  }
+}

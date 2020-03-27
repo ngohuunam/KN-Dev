@@ -1,0 +1,78 @@
+body .p-datatable .p-datatable-tbody > tr.p-info {
+  background-color: #0191ff;
+  color: #ffffff;
+}
+body .p-datatable .p-datatable-tbody > tr.p-info:hover,
+body .p-datatable .p-datatable-tbody > tr:nth-child(even).p-info:hover {
+  background-color: #38a8fd !important;
+}
+
+body .p-dropdown .p-dropdown-trigger,
+body .p-multiselect .p-multiselect-trigger {
+  background-color: transparent;
+}
+body .p-datatable .p-datatable-tbody > tr.p-highlight {
+  background-color: #ffffff;
+  color: #333333;
+}
+body .p-datatable .p-datatable-tbody > tr:nth-child(even).p-highlight {
+  background-color: #f9f9f9;
+  color: #333333;
+}
+body .p-datatable .p-datatable-tbody > tr.p-highlight:hover,
+body .p-datatable .p-datatable-tbody > tr:nth-child(even).p-highlight:hover {
+  cursor: pointer;
+  background-color: #eaeaea;
+  color: #333333;
+}
+body .p-inputtext,
+body .p-component,
+body .p-datatable .p-editable-column input {
+  font-size: 12px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+body .p-checkbox .p-checkbox-box {
+  width: 15px;
+  height: 15px;
+}
+body .p-checkbox {
+  width: 15px;
+  height: 15px;
+}
+body .p-checkbox .p-checkbox-box .p-checkbox-icon {
+  font-size: 13px;
+}
+.p-selection-column {
+  text-align: center;
+}
+body .p-datatable .p-datatable-thead > tr > th {
+  padding: 4px 0.5em;
+}
+body .p-button.p-button-text-only .p-button-text {
+  padding: 0.429em 0.3em;
+}
+body .p-datatable .p-datatable-header,
+body .p-datatable .p-datatable-footer {
+  padding: 8px;
+}
+body .p-button.p-button-icon-only {
+  width: 1.8em;
+}
+body .p-button.p-button-icon-only .p-button-text {
+  padding: 0.2em;
+}
+.margin-right {
+  margin-right: 4px;
+}
+.margin-bot {
+  margin-bottom: 4px;
+}
+.margin-left {
+  margin-left: 4px;
+}
+.margin-top {
+  margin-top: 4px;
+}
+.ql-toolbar.ql-snow {
+  padding: 4px;
+}
