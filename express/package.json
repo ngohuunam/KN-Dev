@@ -7,7 +7,7 @@
     "dev": "SET DEBUG=kn-sv-0001:* & nodemon --inspect ./bin/www"
   },
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "compression": "^1.7.4",
     "cookie-parser": "~1.4.5",
     "cors": "^2.8.5",
